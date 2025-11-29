@@ -1,0 +1,4 @@
+a.sh
+*.sh
+.sh*
+.class
