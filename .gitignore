@@ -1,4 +1,121 @@
-a.sh
-*.sh
-.sh*
-.class
+# ------------------------------
+# GLOBAL GITIGNORE (MULTI-LANG)
+# ------------------------------
+
+# OS FILES
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# LOGS
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ENVIRONMENT VARIABLES
+.env
+.env.*
+!.env.example
+
+# BACKUPS / TEMP
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# COMPILATION / BUILD ARTIFACTS
+dist/
+build/
+out/
+target/
+bin/
+obj/
+coverage/
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.dylib
+*.pyc
+__pycache__/
+
+# DEPENDENCIES
+node_modules/
+vendor/
+packages/
+
+# IDE FOLDERS
+.vscode/
+.idea/
+*.iml
+
+# PYTHON
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# JAVA
+*.jar
+*.war
+*.ear
+
+# C / C++
+*.out
+*.a
+*.lo
+*.la
+
+# GO
+go.sum
+go.work
+go.work.sum
+
+# RUST
+target/
+Cargo.lock
+
+# DOTNET / C#
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+project.lock.json
+project.fragment.lock.json
+
+# SWIFT
+*.xcuserdata/
+*.swiftpm/
+.build/
+
+# FLUTTER / DART
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# DATABASES
+*.sqlite
+*.sqlite3
+*.db
+
+# OTHER
+*.pem
+*.key
+*.crt
+*.p12
